@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int pin,attempts;
+    printf("enter the pin:");
+    scanf("%d",&pin);
+    if(pin==1234)printf("you can acess");
+    else if(pin!=0){for(attempts=0;attempts<=2;attempts++)
+    {printf("re-enter the pin:");
+    scanf("%d",&pin);if(pin==1234){printf("you can acess");break;}}}
+    if(attempts>=3)printf("please reset your pin");
+    return 0;
+    
+}

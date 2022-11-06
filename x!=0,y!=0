@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int x,y,result;
+    printf("enter value of x:");
+    scanf("%d",&x);
+    printf("enter value of y:");
+    scanf("%d",&y);
+    result=x*y;
+    if(x!=0&&y!=0)printf("%d",result);
+    else
+    printf("error");
+    return 0;
+}

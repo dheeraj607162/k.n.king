@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int speed,description;
+    printf("enter the wind speed (in knots):");
+    scanf("%d",&speed);
+    printf("description: ");
+    if(speed<1)printf("calm");
+    else if(speed>=1&&speed<=3)printf("light air");
+    else if(speed>=4&&speed<=27)printf("breeze");
+    else if(speed>=28&&speed<=47)printf("gale");
+    else if(speed>=48&&speed<=63)printf("strom");
+    else printf("hurricane");
+    return 0;
+}

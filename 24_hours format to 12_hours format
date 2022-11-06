@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int time,hours,minutes;
+    printf("enetr a 24-hour time(hh:mm):");
+    scanf("%d:%d",&hours,&minutes);
+    if(hours>12)printf("%d:%d",hours-12,minutes);
+    else printf("equivalent in 12-hours time:%d:%d",hours,minutes);
+    return 0;
+}

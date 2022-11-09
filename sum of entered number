@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int m,n,i,sum;
+    printf("enter value of n");
+    scanf("%d",&n);
+    for(i=0;;i++){
+        m=n%10;
+        sum+=m;
+        n=n/10;
+        if(n==0)break;
+    }printf("%d",sum);
+    return 0;
+}

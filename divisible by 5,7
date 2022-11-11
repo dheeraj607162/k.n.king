@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enetr a number");
+    scanf("%d",&number);
+    if(numer%5==0&&number%7==0)printf("is divisible");
+    else printf("not divisible");
+    return 0;
+}

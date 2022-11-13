@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+     int tim,amount,intrest_rate=3.0,intrest;
+         printf("enter amount:");
+    scanf("%d",&amount);
+    printf("enter time period in months:");
+    scanf("%d",&tim);
+    intrest=(amount*tim*intrest_rate)/100;
+    printf("%d",intrest);
+    return 0;}

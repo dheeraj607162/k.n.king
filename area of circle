@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float pi=3.14,area;
+     int radius;
+    printf("enter radus:");
+    scanf("%d",&radius);
+    area=3.14*radius*radius;
+    printf("area:%.2f",area);
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a=2,b=3,c;
+    int *d=&a,*e=&b,*f=&c;
+    int **h=&d,**i=&e,**j=&f;
+    **j=**h+**i;
+    printf("%d",**j);
+    return 0;
+}

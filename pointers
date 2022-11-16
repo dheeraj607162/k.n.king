@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a=8,b=5,c;
+    int *p=&a,*q=&b,*r=&c;
+    *r=*p+*q;
+    printf("%d\n",*r);
+    *r=*p-*q;
+    printf("%d\n",*r);
+    *r=(*p)*(*q);
+    printf("%d\n",*r);
+    *r=(*p)/(*q);
+    printf("%d\n",*r);
+    *r=(*p)%(*q);
+    printf("%d\n",*r);
+    return 0;
+}

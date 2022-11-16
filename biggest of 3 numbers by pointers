@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int a,b,x;
+    printf("enter a value:");
+    scanf("%d",&a);
+    printf("enter b value:");
+    scanf("%d",&b);
+    printf("enter x value");
+    scanf("%d",&x);
+    int *c=&a,*d=&b,*y=&x;
+    if(*c>*d&&*c>*y)printf("%d is the biggest",*c);
+    else if(*d>*c&&*d>*y)printf("%d is the biggest",*d);
+    else printf("%d is the biggest",*y);
+    return  0;
+}

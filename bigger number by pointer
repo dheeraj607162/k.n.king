@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter a value:");
+    scanf("%d",&a);
+    printf("enter b value:");
+    scanf("%d",&b);
+    int *c=&a,*d=&b;
+    if(*c>*d)printf("%d is bigger than %d",*c,*d);
+    else printf("%d is bigger than %d",*d,*c);
+    return  0;
+}

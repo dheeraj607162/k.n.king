@@ -1,0 +1,17 @@
+#include<stdio.h>
+int sum(int,int);
+void main(){
+	int a,b=0;
+	printf("enter for n numbers should we add:");
+	scanf("%d",&a);
+	b=sum(a,b);
+	printf("%d",b);
+}
+int sum(int x,int y){
+	int c;
+	for(c=0;c<=x;c++){
+		y=y+c;
+	}
+	return y;
+	
+}

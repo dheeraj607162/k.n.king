@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+    int num;
+    Scanner sc=new Scanner(System.in);
+    System.out.print("enter number");
+    num=sc.nextInt();
+    if(num%2==0){
+        System.out.println("even number");
+    }
+    else{
+        System.out.print("num is even");
+    }
+}
+}

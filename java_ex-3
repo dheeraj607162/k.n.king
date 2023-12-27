@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+        double radius,area;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter radius:");
+        radius=sc.nextDouble();
+        area=3.14d*radius*radius;
+        System.out.print(area);
+    }
+}

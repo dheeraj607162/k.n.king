@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+        int i,num,a=1;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter number");
+        num=sc.nextInt();
+        for(i=num;i>0;i--){
+            a=a*i;
+            ;}
+        System.out.print("factorial:"+a);
+        
+    }
+}

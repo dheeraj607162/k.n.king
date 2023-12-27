@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+        int i,a,start,end,z=0,j;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter start:");
+        start=sc.nextInt();
+        System.out.print("enter end:");
+        end=sc.nextInt();
+        for(i=start;i<=end;i++){
+             for(j=2;j<i;j++){
+                 if (i%j==0){
+                     break;
+                 }
+                 else{
+                     System.out.print("prime number:"+i);
+                     System.out.print("\n");
+                     
+                     z++;
+                     break;
+                 }
+                 
+             }
+    }
+    System.out.print("total prime numbers:"+z);
+}}

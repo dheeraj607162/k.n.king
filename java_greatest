@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+        int a,b,c;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter 1st num:");
+        a=sc.nextInt();
+        System.out.print("enter 2nd num:");
+        b=sc.nextInt();
+        System.out.print("enter 3rd num:");
+        c=sc.nextInt();
+        if(a>b&&a>c){
+            System.out.print("a is greater");
+        }
+        else if(b>a&&b>c){
+            System.out.print("b is greater");
+        }
+        else{
+            System.out.print("c is greater");
+        }
+}}

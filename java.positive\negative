@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] aurgs){
+        int a;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter input number");
+        a=sc.nextInt();
+        if(a>0){
+            System.out.print("positive number");
+            
+        }else{
+            System.out.print("negative number");
+        }
+    }
+}
